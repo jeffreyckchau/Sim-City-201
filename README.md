@@ -1,8 +1,10 @@
-Sim City 201
-- Jeffrey Chau
+#Sim City 201
+
+Jeffrey Chau
+
 ======
 
-#Overview
+##Overview
 
 This was a team collaboration to create a digital simulation of a city, including buildings and autonomous persons, to demonstrate agent methodology and unit-testing. 
 
