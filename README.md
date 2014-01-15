@@ -1,33 +1,30 @@
-team29
+Sim City 201
+- Jeffrey Chau
 ======
 
 #Overview
 
-Our project implements multiple residences, a market, a bank, a restaurant, 2 busses and multiple pedestrians utilizing A*, Day and Night system, among other features. 
+This was a team collaboration to create a digital simulation of a city, including buildings and autonomous persons, to demonstrate agent methodology and unit-testing. 
 
-Within our project, we initially assigned very specific roles for each team member to be responsible for. However, as development progressed, each team member assisted one another in the assignments we were responsible for, so every team member had a hand in every branch of the project. 
+##Features
++ A*
++ Busses
++ Businesses (Market, bank, restaurants)
++ Residences
 
-The specific initial emphases of each team member were:
-
-Ryan: Transportation, overworld GUI, car crashes, individual restaurant
-
-Jeffrey: Transportation, git-integration, control panel interface, individual restaurant, error checking
-
-Mike: Person, Roles, shifts, time, All generic interfaces, wrapper classes, building integrations, person debugging, XML parser, individual restaurant
-
-Kushaan: Person, Roles, parties, time, restaurant-market interaction
-
-Dylan: Residence and Residence GUI, original restaurant integration, apartments and apartment guis, XML scenarios, parties
-
-Luca: Market and Market GUI, delivery trucks, individual restaurant, restaurant-market interactions
-
-Byron: Bank and Bank GUI, XML parser, individual restaurant 
-
-Additionally, every member helped each other with design, bug-fixing, and J-Unit testing. We believe the work distribution was overall equal between all 7 of us. 
+##Jeffrey's Duties
++ Transportation programming
++ git-integration
++ Control panel GUI
++ Single Restaurant
++ Many of the J-unit tests for other agents
++ Design for the Person and Transportation agents
 
 #Execution instructions
 
-The project is best run through the eclipse editor by using the play button to run SimCity201Gui. If the play button does not work, the main application can be run through the src/gui/SimCity201Gui.java file. 
+**The class required that this project be built in Eclipse, so the instructions reflect this requirement**
+
+The project is best run through the Eclipse editor by using the play button to run SimCity201Gui. If the play button does not work, the main application can be run through the src/gui/SimCity201Gui.java file. 
 
 Loading specific scenarios is achieved through the initial GUI with labeled buttons. Once in the scenario, selecting View -> Settings -> Test View will display the names of all agents and constructs. To run another scenario, the application must be closed and reopened. 
 
